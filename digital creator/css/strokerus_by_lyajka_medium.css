@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Stroke(RUS BY LYAJKA) Medium';
+	src: url('../fonts/strokerus_by_lyajka_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/strokerus_by_lyajka_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/strokerus_by_lyajka_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/strokerus_by_lyajka_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/strokerus_by_lyajka_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/strokerus_by_lyajka_medium.svg#strokerus_by_lyajka_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}

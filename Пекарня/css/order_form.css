@@ -1,0 +1,16 @@
+#order_form
+{   
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: stretch;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 10px 20px 40px 20px;
+    background-color: rgb(235, 197, 149);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 16%;
+}

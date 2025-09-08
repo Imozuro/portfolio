@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS learning</title>
+</head>
+<body>
+    <section>
+        <h1>События изменения формы</h1>
+        <label for="weather">Выберите тип погоды сегодня</label>
+        <select id="weather">
+            <option value="">--Сделайте выбор--</option>
+            <option value="sunny">Солнечно</option>
+            <option value="rainy">Дождливо</option>
+            <option value="showing">Снежно</option>
+            <option value="overcast">Облачно</option>
+        </select>
+        <p></p>
+    </section>
+    <script>
+        var select = document.querySelector("select");
+        var para = document.querySelector("p");
+
+        select.addEventListener("change", setWeather);
+
+        function setWeather()
+        {
+            var choice = select.value;
+
+            if(choice === "sunny"){
+                para.textContent =
+                "Сегодня хорошо и солнечно. Очень тепло. Не забудьте панаму";
+            }
+            else if(choice === "rainy"){
+                para.textContent =
+                "Сегодня дождливо, вот бы остаться дома и попить горячий чай с печеньем";
+            }
+            else if(choice === "showing"){
+                para.textContent =
+                "Снегпад на улице, отличный повод слепить снеговика";
+            }
+            else if(choice === "overcast"){
+                para.textContent =
+                "Не улице облочно, дождь может начаться в любую минуту, не забудьте взять зонт";
+            }
+
+            else
+            para.textContent = "";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: "strokerus";
+    src: url(/css/fonts/strokerus_medium.woff) format('woff'), url(/css/fonts/strokerus_medium.woff2) format('woff2');
+    font-style: normal;
+}
+@font-face{
+    font-family: "г=";
+    src: url(/css/fonts/strokerus_medium.woff) format('woff'),;
+    font-style: normal;
+}
+
+.main
+{
+   background-image: url("/img/background.png");
+   background-color: #05040A;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: auto;
+   height: 100vh;
+}
+.slogan_banner
+{
+    text-align: center;
+}
+.slogan
+{
+    background-color: rgba(140, 221, 9, 1);
+    color: #FFFFFF;
+    font-size: 64px;
+    text-transform:lowercase;
+    width: auto;
+    display: inline-block;
+    font-family: "Unbounded";
+}
+.slogan1
+{
+    transform: rotate(-1.28deg)
+}
+.slogan2
+{
+    margin-top: 40px;
+    transform: rotate(3.31deg)
+}
+.Heading
+{
+    font-family: "strokerus";
+    color: #FFFFFF;
+    text-transform:uppercase;
+    font-size: 180px;
+    line-height: 168px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.color_1
+{
+    color:rgba(140, 221, 9, 1) ;
+}
+.color_2
+{
+    color:rgba(255, 97, 156, 1);
+}
+.color_3
+{
+    color:rgba(145, 142, 255, 1);
+}
+.color_4
+{
+    color:rgba(255, 251, 0, 1);
+}
