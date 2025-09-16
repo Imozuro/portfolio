@@ -301,6 +301,7 @@ h2 b
     font-weight: 900;
     font-style: normal;
     color: #99E904;
+    margin-top: 5px;
 }
 h2,h3,h4,h5
 {
@@ -400,16 +401,16 @@ header
 /* Customer_Stories */
 .Customer_Stories
 {
-    display: flex;
     width: 100%;
+    padding: 40px;
+    display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 40px;
 }
-.comment2
+.comments
 {
-    float: right;
-    margin: 24px 0px;
+    display: flex;
+    flex-direction: column;
 }
 .comment
 { 
@@ -420,7 +421,13 @@ header
     border: 0.5px solid black;
     width: 800px;
     height: 244px;
+    margin: 5px;
     gap:25px;
+    align-self: flex-start;
+}
+.comment2 {
+    align-self: flex-end;
+
 }
 .comment img{
     height: 100%;
